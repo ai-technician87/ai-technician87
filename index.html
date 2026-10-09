@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- =========================================================
+       BASIC SEO
+       Ganti URL canonical setelah website online.
+  ========================================================== -->
+  <title>AI TECHNICIAN87 | CCTV Installation & Repair Services Makassar & Gowa</title>
+  <meta name="description" content="AI TECHNICIAN87 melayani instalasi CCTV, perbaikan, troubleshooting, dan maintenance untuk rumah, bisnis, kantor, gudang, peternakan serta kebutuhan industri di Makassar, Gowa & sekitarnya." />
+  <meta name="keywords" content="jasa CCTV Makassar, jasa CCTV Gowa, pemasangan CCTV, perbaikan CCTV, maintenance CCTV, teknisi CCTV Makassar, teknisi CCTV Gowa, AI TECHNICIAN87" />
+  <meta name="author" content="AI TECHNICIAN87" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#020617" />
+  <link rel="canonical" href="https://www.example.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AI TECHNICIAN87 | CCTV Installation & Repair Services" />
+  <meta property="og:description" content="Instalasi, perbaikan, hingga maintenance CCTV untuk bisnis, rumah, kantor, gudang, peternakan dan kebutuhan industri." />
+  <meta property="og:url" content="https://www.example.com/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1558008258-3256797b43f3?auto=format&fit=crop&w=1600&q=85" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+            display: ['Orbitron', 'Inter', 'sans-serif']
+          },
+          boxShadow: {
+            neon: '0 0 40px rgba(34,211,238,.16)',
+            neonStrong: '0 0 55px rgba(34,211,238,.28)'
+          },
+          backgroundImage: {
+            'tech-grid': 'linear-gradient(rgba(34,211,238,.055) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,.055) 1px, transparent 1px)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- Favicon AI TECHNICIAN87: letakkan file aset di folder yang sama dengan index.html -->
+  <link rel="icon" href="favicon-ai-technician87.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-ai-technician87.png" />
+  <link rel="apple-touch-icon" href="favicon-ai-technician87.png" />
+
+  <!-- =========================================================
+       LOCAL BUSINESS / SEO SCHEMA
+       Pastikan URL dan logo diganti setelah domain aktif.
+  ========================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.example.com/#business",
+    "name": "AI TECHNICIAN87",
+    "description": "Jasa instalasi, perbaikan dan maintenance CCTV AI serta sistem keamanan digital di Makassar, Gowa dan sekitarnya.",
+    "url": "https://www.example.com/",
+    "telephone": "+628979705022",
+    "email": "ai.technician1987@gmail.com",
+    "priceRange": "$$",
+    "image": "https://images.unsplash.com/photo-1558008258-3256797b43f3?auto=format&fit=crop&w=1600&q=85",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Bontobiraeng, Katangka",
+      "addressLocality": "Somba Opu",
+      "addressRegion": "Sulawesi Selatan",
+      "postalCode": "92114",
+      "addressCountry": "ID"
+    },
+    "areaServed": [
+      {"@type": "City", "name": "Makassar"},
+      {"@type": "AdministrativeArea", "name": "Gowa"},
+      {"@type": "Place", "name": "Sulawesi Selatan"}
+    ],
+    "serviceType": [
+      "Pemasangan CCTV AI",
+      "Perbaikan CCTV",
+      "Maintenance CCTV",
+      "Sistem Keamanan Digital"
+    ]
+  }
+  </script>
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Plus Jakarta Sans', Inter, sans-serif; }
+    .text-glow { text-shadow: 0 0 24px rgba(34,211,238,.35); }
+    .border-glow { box-shadow: inset 0 0 0 1px rgba(34,211,238,.18), 0 0 35px rgba(34,211,238,.07); }
+    .hero-grid { background-size: 48px 48px; }
+    .noise { position: relative; isolation: isolate; }
+    .noise::after {
+      content: ''; position: absolute; inset: 0; pointer-events: none; z-index: -1;
+      opacity: .05; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E");
+    }
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.show { opacity: 1; transform: translateY(0); }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height .35s ease, opacity .35s ease; opacity: 0; }
+    .faq-item.open .faq-answer { max-height: 220px; opacity: 1; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+    .faq-icon { transition: transform .3s ease; }
+    .mobile-menu { transition: opacity .25s ease, transform .25s ease, visibility .25s ease; }
+    .mobile-menu.hidden-menu { opacity: 0; transform: translateY(-8px); visibility: hidden; pointer-events: none; }
+    .mobile-menu.visible-menu { opacity: 1; transform: translateY(0); visibility: visible; }
+  </style>
+</head>
+
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-400 selection:text-slate-950">
+
+  <!-- =========================================================
+       NAVBAR
+  ========================================================== -->
+  <header class="fixed top-0 left-0 right-0 z-50">
+    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-4">
+      <div class="relative rounded-2xl border border-white/10 bg-slate-950/70 backdrop-blur-xl shadow-2xl">
+        <div class="flex h-16 items-center justify-between px-4 sm:px-6">
+          <a href="#home" class="flex items-center gap-3" aria-label="AI TECHNICIAN87 Home">
+            <img src="logo-ai-technician87.webp" alt="Logo AI TECHNICIAN87" width="44" height="44" fetchpriority="high" class="h-11 w-11 shrink-0 object-contain" />
+            <span>
+              <span class="block font-display text-sm font-bold tracking-[.08em] text-white">AI TECHNICIAN<span class="text-cyan-400">87</span></span>
+              <span class="hidden text-[9px] font-semibold tracking-[.25em] text-slate-500 sm:block">SMART SECURITY SYSTEM</span>
+            </span>
+          </a>
+
+          <div class="hidden items-center gap-7 lg:flex">
+            <a href="#home" class="text-sm font-medium text-slate-300 transition hover:text-cyan-300">Home</a>
+            <a href="#services" class="text-sm font-medium text-slate-300 transition hover:text-cyan-300">Services</a>
+            <a href="#gallery" class="text-sm font-medium text-slate-300 transition hover:text-cyan-300">Gallery</a>
+            <a href="#faq" class="text-sm font-medium text-slate-300 transition hover:text-cyan-300">FAQ</a>
+            <a href="#contact" class="text-sm font-medium text-slate-300 transition hover:text-cyan-300">Contact</a>
+          </div>
+
+          <div class="hidden lg:block">
+            <a href="https://wa.me/628979705022?text=Halo%20AI%20TECHNICIAN87,%20saya%20ingin%20konsultasi%20tentang%20CCTV%20dan%20sistem%20keamanan." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 rounded-xl bg-emerald-500 px-4 py-2.5 text-sm font-bold text-slate-950 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-emerald-400">
+              <i class="fa-brands fa-whatsapp text-lg"></i> Chat WhatsApp
+            </a>
+          </div>
+
+          <button id="menuBtn" class="grid h-10 w-10 place-items-center rounded-xl border border-white/10 bg-white/5 text-slate-200 lg:hidden" aria-label="Buka menu" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+
+        <div id="mobileMenu" class="mobile-menu hidden-menu absolute left-3 right-3 top-[calc(100%+8px)] rounded-2xl border border-white/10 bg-slate-950/95 p-3 shadow-2xl backdrop-blur-xl lg:hidden">
+          <div class="grid gap-1">
+            <a href="#home" class="rounded-xl px-4 py-3 text-sm text-slate-300 hover:bg-white/5 hover:text-cyan-300">Home</a>
+            <a href="#services" class="rounded-xl px-4 py-3 text-sm text-slate-300 hover:bg-white/5 hover:text-cyan-300">Services</a>
+            <a href="#gallery" class="rounded-xl px-4 py-3 text-sm text-slate-300 hover:bg-white/5 hover:text-cyan-300">Gallery</a>
+            <a href="#faq" class="rounded-xl px-4 py-3 text-sm text-slate-300 hover:bg-white/5 hover:text-cyan-300">FAQ</a>
+            <a href="#contact" class="rounded-xl px-4 py-3 text-sm text-slate-300 hover:bg-white/5 hover:text-cyan-300">Contact</a>
+            <a href="https://wa.me/628979705022?text=Halo%20AI%20TECHNICIAN87,%20saya%20ingin%20konsultasi%20tentang%20CCTV%20dan%20sistem%20keamanan." target="_blank" rel="noopener noreferrer" class="mt-2 inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-500 px-4 py-3 text-sm font-bold text-slate-950">
+              <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         HERO
+    ========================================================== -->
+    <section id="home" class="noise relative overflow-hidden border-b border-white/5 bg-tech-grid hero-grid">
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(34,211,238,.13),transparent_28%),radial-gradient(circle_at_85%_30%,rgba(59,130,246,.12),transparent_25%)]"></div>
+      <div class="absolute -right-40 top-20 h-96 w-96 rounded-full bg-cyan-400/10 blur-3xl"></div>
+      <div class="absolute -left-40 bottom-0 h-96 w-96 rounded-full bg-blue-500/10 blur-3xl"></div>
+
+      <div class="relative mx-auto grid min-h-[760px] max-w-7xl items-center gap-12 px-4 pb-20 pt-36 sm:px-6 lg:grid-cols-[1.08fr_.92fr] lg:px-8 lg:pb-24">
+        <div class="reveal">
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/5 px-3 py-1.5 text-xs font-semibold tracking-wide text-cyan-300">
+            <span class="h-2 w-2 animate-pulse rounded-full bg-cyan-300"></span>
+            MAKASSAR • GOWA • SULAWESI SELATAN
+          </div>
+
+          <p class="mb-4 font-display text-xs font-semibold tracking-[.28em] text-cyan-400">SMART SECURITY • AI TECHNOLOGY • FIELD SERVICE</p>
+          <h1 class="max-w-4xl font-display text-4xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl">
+            Keamanan Lebih Cerdas.<br />
+            <span class="text-cyan-400 text-glow">Perlindungan Lebih Siap.</span>
+          </h1>
+          <p class="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
+            <strong class="text-white">AI TECHNICIAN87</strong> menghadirkan layanan profesional untuk instalasi, perbaikan, troubleshooting, dan maintenance CCTV untuk rumah, bisnis, kantor, gudang, peternakan, hingga industri.
+          </p>
+
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="https://wa.me/628979705022?text=Halo%20AI%20TECHNICIAN87,%20saya%20ingin%20konsultasi%20dan%20meminta%20penawaran%20layanan%20CCTV." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 rounded-xl bg-emerald-500 px-6 py-3.5 font-bold text-slate-950 shadow-lg shadow-emerald-500/10 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-emerald-400">
+              <i class="fa-brands fa-whatsapp text-xl"></i> Konsultasi via WhatsApp
+            </a>
+            <a href="#services" class="inline-flex items-center justify-center gap-3 rounded-xl border border-cyan-400/30 bg-white/5 px-6 py-3.5 font-bold text-white backdrop-blur transition-all duration-300 ease-in-out hover:scale-105 hover:border-cyan-300/60 hover:bg-cyan-400/10">
+              Pelajari Layanan <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="mt-9 flex flex-wrap gap-x-6 gap-y-3 text-xs font-semibold text-slate-400">
+            <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Teknisi Berpengalaman</span>
+            <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Garansi Resmi</span>
+            <span class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-cyan-400"></i> Respon Cepat 24/7</span>
+          </div>
+        </div>
+
+        <!-- Hero visual / placeholder -->
+        <div class="reveal relative mx-auto w-full max-w-xl">
+          <div class="absolute -inset-5 rounded-[2rem] bg-cyan-400/10 blur-3xl"></div>
+          <div class="relative overflow-hidden rounded-[2rem] border border-cyan-300/20 bg-slate-900/70 p-2 shadow-neonStrong backdrop-blur-xl">
+            <img src="images/hero-image.webp" alt="Ilustrasi kamera keamanan CCTV" class="h-[430px] w-full rounded-[1.5rem] object-cover opacity-80" />
+            <div class="absolute inset-2 rounded-[1.5rem] bg-gradient-to-t from-slate-950 via-slate-950/10 to-transparent"></div>
+            <div class="absolute bottom-8 left-8 right-8">
+              <div class="flex items-end justify-between gap-5">
+                <div>
+                  <p class="font-display text-[10px] font-bold tracking-[.28em] text-cyan-300">AI SECURITY NODE</p>
+                  <p class="mt-2 text-xl font-bold text-white">Monitor. Detect. Protect.</p>
+                </div>
+                <div class="grid h-12 w-12 shrink-0 place-items-center rounded-2xl border border-cyan-300/20 bg-cyan-300/10 text-cyan-300">
+                  <i class="fa-solid fa-video"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute -bottom-5 -left-5 hidden rounded-2xl border border-white/10 bg-slate-900/90 px-4 py-3 shadow-2xl backdrop-blur-xl sm:block">
+            <div class="flex items-center gap-3">
+              <span class="grid h-10 w-10 place-items-center rounded-xl bg-emerald-400/10 text-emerald-400"><i class="fa-solid fa-bolt"></i></span>
+              <div><p class="text-[10px] font-bold tracking-widest text-slate-500">RESPONSE</p><p class="text-sm font-bold text-white">Fast Service</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         VALUE / USP
+    ========================================================== -->
+    <section class="border-b border-white/5 bg-slate-950 py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="reveal mb-12 max-w-2xl">
+          <p class="font-display text-xs font-bold tracking-[.28em] text-cyan-400">WHY AI TECHNICIAN87</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">Teknologi tepat. Eksekusi profesional.</h2>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="reveal border-glow rounded-2xl border border-white/10 bg-white/[.03] p-6 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02] hover:border-cyan-400/30 hover:bg-cyan-400/[.04]">
+            <div class="grid h-12 w-12 place-items-center rounded-xl bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-user-gear text-xl"></i></div>
+            <h3 class="mt-5 font-bold text-white">Teknisi Berpengalaman</h3>
+            <p class="mt-2 text-sm leading-7 text-slate-400">Penanganan instalasi, maintenance hingga troubleshooting dengan pendekatan teknis yang rapi & terukur.</p>
+          </article>
+          <article class="reveal border-glow rounded-2xl border border-white/10 bg-white/[.03] p-6 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02] hover:border-cyan-400/30 hover:bg-cyan-400/[.04]">
+            <div class="grid h-12 w-12 place-items-center rounded-xl bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-shield-heart text-xl"></i></div>
+            <h3 class="mt-5 font-bold text-white">Garansi Resmi</h3>
+            <p class="mt-2 text-sm leading-7 text-slate-400">Memberikan ketenangan melalui dukungan purna jual dan garansi sesuai ketentuan layanan.</p>
+          </article>
+          <article class="reveal border-glow rounded-2xl border border-white/10 bg-white/[.03] p-6 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02] hover:border-cyan-400/30 hover:bg-cyan-400/[.04]">
+            <div class="grid h-12 w-12 place-items-center rounded-xl bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-clock text-xl"></i></div>
+            <h3 class="mt-5 font-bold text-white">Respon Cepat 24/7</h3>
+            <p class="mt-2 text-sm leading-7 text-slate-400">Dukungan cepat untuk kebutuhan perbaikan, troubleshooting, dan kondisi sistem yang kritis.</p>
+          </article>
+          <article class="reveal border-glow rounded-2xl border border-white/10 bg-white/[.03] p-6 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-[1.02] hover:border-cyan-400/30 hover:bg-cyan-400/[.04]">
+            <div class="grid h-12 w-12 place-items-center rounded-xl bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-microchip text-xl"></i></div>
+            <h3 class="mt-5 font-bold text-white">Teknologi AI</h3>
+            <p class="mt-2 text-sm leading-7 text-slate-400">Solusi kamera pintar untuk membantu monitoring, deteksi, dan pengawasan yang lebih efisien.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SERVICES
+    ========================================================== -->
+    <section id="services" class="border-b border-white/5 bg-slate-900/40 py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="reveal mx-auto mb-14 max-w-3xl text-center">
+          <p class="font-display text-xs font-bold tracking-[.28em] text-cyan-400">OUR SERVICES</p>
+          <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">Sistem keamanan dari instalasi hingga perawatan.</h2>
+          <p class="mt-4 text-slate-400">Dirancang untuk kebutuhan rumah tangga, bisnis, kantor, gudang, peternakan, dan lingkungan industri.</p>
+        </div>
+
+        <div class="grid gap-6 lg:grid-cols-3">
+          <article class="reveal group overflow-hidden rounded-3xl border border-white/10 bg-slate-950 shadow-neon transition-all duration-300 ease-in-out hover:-translate-y-2 hover:scale-[1.01]">
+            <div class="relative h-64 overflow-hidden">
+              <img loading="lazy" src="images/installation-cctv.webp" alt="Pemasangan Smart IP Camera PTZ" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <span class="absolute left-5 top-5 rounded-full border border-cyan-300/20 bg-slate-950/70 px-3 py-1 text-[10px] font-bold tracking-widest text-cyan-300 backdrop-blur">01 / INSTALLATION</span>
+            </div>
+            <div class="p-7">
+              <h3 class="text-xl font-bold text-white">Pemasangan Baru</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-400">Perencanaan titik kamera, instalasi perangkat, konfigurasi jaringan, storage, remote monitoring, dan integrasi fitur pintar sesuai kebutuhan di lokasi.</p>
+              <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-cyan-300 hover:text-cyan-200">Konsultasikan kebutuhan <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="reveal group overflow-hidden rounded-3xl border border-white/10 bg-slate-950 shadow-neon transition-all duration-300 ease-in-out hover:-translate-y-2 hover:scale-[1.01]">
+            <div class="relative h-64 overflow-hidden">
+              <img loading="lazy" src="images/troubleshooting.webp" alt="Teknisi melakukan troubleshooting perangkat CCTV" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <span class="absolute left-5 top-5 rounded-full border border-cyan-300/20 bg-slate-950/70 px-3 py-1 text-[10px] font-bold tracking-widest text-cyan-300 backdrop-blur">02 / REPAIR</span>
+            </div>
+            <div class="p-7">
+              <h3 class="text-xl font-bold text-white">Perbaikan & Troubleshooting</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-400">Diagnosa masalah kamera, DVR/NVR, kabel, power, jaringan, aplikasi remote, dan konfigurasi sistem untuk mengembalikan fungsi keamanan secara optimal.</p>
+              <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-cyan-300 hover:text-cyan-200">Minta bantuan teknisi <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="reveal group overflow-hidden rounded-3xl border border-white/10 bg-slate-950 shadow-neon transition-all duration-300 ease-in-out hover:-translate-y-2 hover:scale-[1.01]">
+            <div class="relative h-64 overflow-hidden">
+              <img loading="lazy" src="images/maintenance-dvr.webp" alt="Perawatan DVR/NVR" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+              <span class="absolute left-5 top-5 rounded-full border border-cyan-300/20 bg-slate-950/70 px-3 py-1 text-[10px] font-bold tracking-widest text-cyan-300 backdrop-blur">03 / MAINTENANCE</span>
+            </div>
+            <div class="p-7">
+              <h3 class="text-xl font-bold text-white">Perawatan Berkala</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-400">Pemeriksaan perangkat DVR/NVR, kebersihan kamera, storage, koneksi, power supply, dan konfigurasi untuk menjaga performa sistem dalam jangka panjang.</p>
+              <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-cyan-300 hover:text-cyan-200">Jadwalkan maintenance <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         GALLERY
+    ========================================================== -->
+    <section id="gallery" class="border-b border-white/5 bg-slate-950 py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="reveal mb-12 flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+          <div>
+            <p class="font-display text-xs font-bold tracking-[.28em] text-cyan-400">FIELD DOCUMENTATION</p>
+            <h2 class="mt-3 text-3xl font-extrabold text-white sm:text-4xl">Dokumentasi pekerjaan.</h2>
+          </div>
+          <p class="max-w-md text-sm leading-7 text-slate-400">Ganti seluruh gambar di bawah dengan dokumentasi asli proyek AI TECHNICIAN87 untuk meningkatkan trust dan conversion.</p>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <figure class="reveal group relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/10">
+            <img loading="lazy" src="images/pemasangan-cctv.webp" alt="Dokumentasi pemasangan CCTV" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+            <figcaption class="absolute inset-0 flex items-end bg-gradient-to-t from-slate-950/95 via-slate-950/20 to-transparent p-5 opacity-100 transition group-hover:from-slate-950">
+              <div><p class="text-[10px] font-bold tracking-widest text-cyan-300">01</p><p class="mt-1 font-bold text-white">Pemasangan</p></div>
+            </figcaption>
+          </figure>
+          <figure class="reveal group relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/10">
+            <img loading="lazy" src="images/perbaikan-cctv.webp" alt="Dokumentasi perbaikan CCTV" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+            <figcaption class="absolute inset-0 flex items-end bg-gradient-to-t from-slate-950/95 via-slate-950/20 to-transparent p-5 opacity-100 transition group-hover:from-slate-950">
+              <div><p class="text-[10px] font-bold tracking-widest text-cyan-300">02</p><p class="mt-1 font-bold text-white">Perbaikan</p></div>
+            </figcaption>
+          </figure>
+          <figure class="reveal group relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/10">
+            <img loading="lazy" src="images/maintence-cctv.webp" alt="Dokumentasi maintenance CCTV" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+            <figcaption class="absolute inset-0 flex items-end bg-gradient-to-t from-slate-950/95 via-slate-950/20 to-transparent p-5 opacity-100 transition group-hover:from-slate-950">
+              <div><p class="text-[10px] font-bold tracking-widest text-cyan-300">03</p><p class="mt-1 font-bold text-white">Maintenance</p></div>
+            </figcaption>
+          </figure>
+          <figure class="reveal group relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/10">
+            <img loading="lazy" src="images/konfigurasi-sistem.webp" alt="Dokumentasi konfigurasi sistem keamanan" class="h-full w-full object-cover transition duration-700 group-hover:scale-110" />
+            <figcaption class="absolute inset-0 flex items-end bg-gradient-to-t from-slate-950/95 via-slate-950/20 to-transparent p-5 opacity-100 transition group-hover:from-slate-950">
+              <div><p class="text-[10px] font-bold tracking-widest text-cyan-300">04</p><p class="mt-1 font-bold text-white">Konfigurasi Sistem</p></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         FAQ + CONTACT
+    ========================================================== -->
+    <section id="contact" class="border-b border-white/5 bg-slate-900/40 py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="reveal mb-12 max-w-2xl">
+          <p class="font-display text-xs font-bold tracking-[.28em] text-cyan-400">CONTACT & FAQ</p>
+          <h2 class="mt-3 text-3xl font-extrabold text-white sm:text-4xl">Mari bangun sistem keamanan yang lebih siap.</h2>
+          <p class="mt-4 text-slate-400">Kirim kebutuhan Anda. Untuk respon tercepat, gunakan WhatsApp.</p>
+        </div>
+
+        <div class="grid gap-8 lg:grid-cols-[.9fr_1.1fr]">
+          <!-- Contact form -->
+          <div class="reveal rounded-3xl border border-white/10 bg-slate-950 p-6 shadow-neon sm:p-8">
+            <div class="mb-7 flex items-center gap-4">
+              <div class="grid h-12 w-12 place-items-center rounded-xl bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-paper-plane"></i></div>
+              <div><h3 class="font-bold text-white">Kirim Permintaan</h3><p class="text-xs text-slate-500">Form akan membuka WhatsApp Anda.</p></div>
+            </div>
+            <form id="contactForm" class="space-y-4">
+              <div>
+                <label for="name" class="mb-2 block text-xs font-semibold text-slate-300">Nama</label>
+                <input id="name" required type="text" placeholder="Nama lengkap / perusahaan" class="w-full rounded-xl border border-white/10 bg-white/[.04] px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-cyan-400/60 focus:bg-cyan-400/[.03]" />
+              </div>
+              <div class="grid gap-4 sm:grid-cols-2">
+                <div>
+                  <label for="email" class="mb-2 block text-xs font-semibold text-slate-300">Email</label>
+                  <input id="email" required type="email" placeholder="nama@email.com" class="w-full rounded-xl border border-white/10 bg-white/[.04] px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-cyan-400/60 focus:bg-cyan-400/[.03]" />
+                </div>
+                <div>
+                  <label for="need" class="mb-2 block text-xs font-semibold text-slate-300">Keperluan</label>
+                  <select id="need" class="w-full rounded-xl border border-white/10 bg-white/[.04] px-4 py-3 text-sm text-slate-300 outline-none focus:border-cyan-400/60">
+                    <option value="Pemasangan CCTV">Pemasangan CCTV</option>
+                    <option value="Perbaikan / Troubleshooting">Perbaikan / Troubleshooting</option>
+                    <option value="Maintenance">Maintenance</option>
+                    <option value="Konsultasi Sistem Keamanan">Konsultasi Sistem Keamanan</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <label for="message" class="mb-2 block text-xs font-semibold text-slate-300">Pesan</label>
+                <textarea id="message" required rows="5" placeholder="Ceritakan kebutuhan, jumlah kamera, lokasi, atau kendala yang sedang terjadi..." class="w-full resize-none rounded-xl border border-white/10 bg-white/[.04] px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-cyan-400/60 focus:bg-cyan-400/[.03]"></textarea>
+              </div>
+              <button type="submit" class="inline-flex w-full items-center justify-center gap-3 rounded-xl bg-emerald-500 px-5 py-3.5 font-bold text-slate-950 transition-all duration-300 ease-in-out hover:scale-[1.02] hover:bg-emerald-400">
+                <i class="fa-brands fa-whatsapp text-xl"></i> Kirim via WhatsApp
+              </button>
+            </form>
+
+            <div class="mt-7 grid gap-3 border-t border-white/5 pt-6">
+              <a href="tel:+628979705022" class="flex items-center gap-3 text-sm text-slate-300 hover:text-white"><i class="fa-solid fa-phone w-5 text-cyan-400"></i> 08979705022</a>
+              <a href="mailto:ai.technician1987@gmail.com" class="flex items-center gap-3 text-sm text-slate-300 hover:text-white"><i class="fa-solid fa-envelope w-5 text-cyan-400"></i> ai.technician1987@gmail.com</a>
+              <div class="flex items-start gap-3 text-sm leading-6 text-slate-300"><i class="fa-solid fa-location-dot w-5 pt-1 text-cyan-400"></i><span>Jl. Bontobiraeng, Katangka, Somba Opu, Gowa, Sulawesi Selatan - Indonesia 92114</span></div>
+            </div>
+          </div>
+
+          <!-- FAQ -->
+          <div id="faq" class="reveal space-y-3">
+            <div class="faq-item rounded-2xl border border-white/10 bg-slate-950/70 p-5 backdrop-blur-xl">
+              <button class="faq-btn flex w-full items-center justify-between gap-4 text-left" aria-expanded="false">
+                <span class="font-semibold text-white">Apakah AI TECHNICIAN87 melayani area Makassar dan Gowa?</span>
+                <span class="faq-icon grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-plus"></i></span>
+              </button>
+              <div class="faq-answer"><p class="pt-4 text-sm leading-7 text-slate-400">Ya. Area layanan utama mencakup Makassar, Gowa, dan area sekitarnya di Sulawesi Selatan. Untuk lokasi di luar area utama, silakan konsultasikan terlebih dahulu.</p></div>
+            </div>
+            <div class="faq-item rounded-2xl border border-white/10 bg-slate-950/70 p-5 backdrop-blur-xl">
+              <button class="faq-btn flex w-full items-center justify-between gap-4 text-left" aria-expanded="false">
+                <span class="font-semibold text-white">Apakah bisa survei lokasi terlebih dahulu sebelum pemasangan?</span>
+                <span class="faq-icon grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-plus"></i></span>
+              </button>
+              <div class="faq-answer"><p class="pt-4 text-sm leading-7 text-slate-400">Tentu saja. Kami menyediakan layanan survei lokasi gratis untuk menganalisis titik kamera terbaik dan memberikan penawaran harga yang paling efisien sesuai kebutuhan Anda.</p></div>
+            </div>
+            <div class="faq-item rounded-2xl border border-white/10 bg-slate-950/70 p-5 backdrop-blur-xl">
+              <button class="faq-btn flex w-full items-center justify-between gap-4 text-left" aria-expanded="false">
+                <span class="font-semibold text-white">Bisa memperbaiki CCTV yang dipasang oleh teknisi lain?</span>
+                <span class="faq-icon grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-plus"></i></span>
+              </button>
+              <div class="faq-answer"><p class="pt-4 text-sm leading-7 text-slate-400">Ya. Tim dapat melakukan pemeriksaan dan troubleshooting pada kamera, DVR/NVR, power, kabel, jaringan, serta konfigurasi aplikasi. Solusi akhir mengikuti hasil pemeriksaan di lokasi.</p></div>
+            </div>
+            <div class="faq-item rounded-2xl border border-white/10 bg-slate-950/70 p-5 backdrop-blur-xl">
+              <button class="faq-btn flex w-full items-center justify-between gap-4 text-left" aria-expanded="false">
+                <span class="font-semibold text-white">Apakah produk dan jasa pemasangan disini bergaransi?</span>
+                <span class="faq-icon grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-cyan-400/10 text-cyan-300"><i class="fa-solid fa-plus"></i></span>
+              </button>
+              <div class="faq-answer"><p class="pt-4 text-sm leading-7 text-slate-400">Ya, kami memberikan garansi resmi produk hingga 1-2 tahun (tergantung merek) dan garansi servis pemasangan selama 30 hari demi kenyamanan Anda.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         MAPS
+         Ganti src iframe dengan embed resmi dari Google Maps.
+    ========================================================== -->
+    <section class="relative overflow-hidden bg-slate-950">
+      <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="reveal mb-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+          <div>
+            <p class="font-display text-xs font-bold tracking-[.28em] text-cyan-400">SERVICE LOCATION</p>
+            <h2 class="mt-3 text-2xl font-extrabold text-white sm:text-3xl">Berbasis di Gowa. Siap melayani Makassar.</h2>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=AI+TECHNICIAN87+Jl.+Bontobiraeng+Katangka+Somba+Opu+Gowa+Sulawesi+Selatan" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-sm font-bold text-cyan-300 hover:text-cyan-200">Buka Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="reveal overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-neon">
+          <!-- PLACEHOLDER MAP: replace this iframe src with your Google Maps Embed URL -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.3401193381135!2d119.4445255896384!3d-5.193009229565475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee300669b3e83%3A0xeb2803aa34e86665!2sAi%20Technician87!5e0!3m2!1sid!2sid!4v1791546245988!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="border-t border-white/5 bg-black py-10">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-10 md:grid-cols-[1.2fr_.8fr_.8fr]">
+        <div>
+          <div class="flex items-center gap-3">
+            <img src="logo-ai-technician87.webp" alt="Logo AI TECHNICIAN87" width="44" height="44" loading="lazy" class="h-11 w-11 shrink-0 object-contain" />
+            <div><p class="font-display text-sm font-bold tracking-[.08em] text-white">AI TECHNICIAN<span class="text-cyan-400">87</span></p><p class="text-[9px] tracking-[.25em] text-slate-600">GIVE THE BEST SERVICE</p></div>
+          </div>
+          <p class="mt-5 max-w-md text-sm leading-7 text-slate-500">Partner teknologi keamanan untuk instalasi, perbaikan, dan maintenance CCTV di Makassar, Gowa, dan sekitarnya.</p>
+        </div>
+        <div>
+          <h3 class="text-sm font-bold text-white">Navigasi</h3>
+          <div class="mt-4 grid gap-2 text-sm text-slate-500">
+            <a href="#home" class="hover:text-cyan-300">Home</a><a href="#services" class="hover:text-cyan-300">Services</a><a href="#gallery" class="hover:text-cyan-300">Gallery</a><a href="#faq" class="hover:text-cyan-300">FAQ</a><a href="#contact" class="hover:text-cyan-300">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-sm font-bold text-white">Kontak</h3>
+          <div class="mt-4 space-y-3 text-sm text-slate-500">
+            <a href="https://wa.me/628979705022" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 hover:text-emerald-400"><i class="fa-brands fa-whatsapp text-base"></i> 08979705022</a>
+            <a href="mailto:ai.technician1987@gmail.com" class="flex items-center gap-3 hover:text-cyan-300"><i class="fa-solid fa-envelope"></i> Email</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=AI+TECHNICIAN87+Jl.+Bontobiraeng+Katangka+Somba+Opu+Gowa+Sulawesi+Selatan" target="_blank" rel="noopener noreferrer" class="flex items-start gap-3 hover:text-cyan-300"><i class="fa-solid fa-location-dot mt-1"></i><span>Jl. Bontobiraeng, Katangka, Somba Opu, Gowa, Sulawesi Selatan 92114</span></a>
+          </div>
+          <div class="mt-5 flex gap-2">
+            <a href="https://wa.me/628979705022" aria-label="WhatsApp" class="grid h-9 w-9 place-items-center rounded-lg border border-white/10 text-slate-400 hover:border-emerald-400/30 hover:text-emerald-400"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:ai.technician1987@gmail.com" aria-label="Email" class="grid h-9 w-9 place-items-center rounded-lg border border-white/10 text-slate-400 hover:border-cyan-400/30 hover:text-cyan-300"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 border-t border-white/5 pt-6 text-xs text-slate-600">© <span id="year"></span> AI TECHNICIAN87. All rights reserved. • Give The Best Service.</div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp CTA -->
+  <a href="https://wa.me/628979705022?text=Halo%20AI%20TECHNICIAN87,%20saya%20ingin%20konsultasi%20tentang%20CCTV." target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp AI TECHNICIAN87" class="fixed bottom-5 right-5 z-40 grid h-14 w-14 place-items-center rounded-full bg-emerald-500 text-2xl text-slate-950 shadow-2xl shadow-emerald-500/20 transition-all duration-300 hover:scale-110 hover:bg-emerald-400">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- =========================================================
+       VANILLA JAVASCRIPT
+  ========================================================== -->
+  <script>
+    // Tahun otomatis
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.contains('visible-menu');
+      mobileMenu.classList.toggle('visible-menu', !isOpen);
+      mobileMenu.classList.toggle('hidden-menu', isOpen);
+      menuBtn.setAttribute('aria-expanded', String(!isOpen));
+      menuBtn.innerHTML = isOpen ? '<i class="fa-solid fa-bars"></i>' : '<i class="fa-solid fa-xmark"></i>';
+    });
+
+    // Tutup mobile menu setelah klik navigasi
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('visible-menu');
+        mobileMenu.classList.add('hidden-menu');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+      });
+    });
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.closest('.faq-item');
+        const currentlyOpen = item.classList.contains('open');
+
+        document.querySelectorAll('.faq-item').forEach(other => {
+          other.classList.remove('open');
+          other.querySelector('.faq-btn').setAttribute('aria-expanded', 'false');
+        });
+
+        if (!currentlyOpen) {
+          item.classList.add('open');
+          button.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // Form -> WhatsApp
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const need = document.getElementById('need').value;
+      const message = document.getElementById('message').value.trim();
+
+      const text = [
+        'Halo AI TECHNICIAN87, saya ingin berkonsultasi.',
+        '',
+        'Nama: ' + name,
+        'Email: ' + email,
+        'Keperluan: ' + need,
+        'Pesan: ' + message,
+        '',
+        'Mohon informasi dan estimasi layanan. Terima kasih.'
+      ].join('\n');
+
+      window.open('https://wa.me/628979705022?text=' + encodeURIComponent(text), '_blank', 'noopener,noreferrer');
+    });
+
+    // Reveal on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
