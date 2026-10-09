@@ -29,10 +29,10 @@ Selamat datang di repository resmi **[Ai Technician87]**. Kami adalah penyedia l
 
 Siap meningkatkan keamanan properti Anda? Jangan ragu untuk mendiskusikan kebutuhan Anda atau meminta penawaran harga (RAB):
 
-*   **📱 WhatsApp/Telepon:** [0897-9705-022]
-*   **📧 Email:** [ai.technician1987@gmail.com]
-*   **🌐 Website:** [://website-anda.com (jika ada)]
-*   **📍 Alamat Kantor:** [Jl. Bontobiraeng, Katangka, Somba Opu, Gowa, Sulawesi Selatan - Indonesia 92114]
+*   **📱 WhatsApp/Telepon:** 0897-9705-022
+*   **📧 Email:** ai.technician1987@gmail.com
+*   **🌐 Website:** https://ai-technician87.github.io/ai-technician87/
+*   **📍 Alamat Kantor:** Jl. Bontobiraeng, Katangka, Somba Opu, Gowa, Sulawesi Selatan - Indonesia 92114
 
 ---
 <p align="center">
